@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BadPaginationParams" xml:space="preserve">
+    <value>Bad pagination parameters</value>
+  </data>
+  <data name="CantFindChannel" xml:space="preserve">
+    <value>Ouch! We cannot find this channel...</value>
+  </data>
+  <data name="CantFindGroup" xml:space="preserve">
+    <value>Ouch! We cannot find this group...</value>
+  </data>
+  <data name="CantFindGroupOrUser" xml:space="preserve">
+    <value>Oops! Something wrong while retrieving info on your membership... Please, retry in a while!</value>
+  </data>
+  <data name="CantJoinGroup" xml:space="preserve">
+    <value>Oops! Something wrong while joining the group. Please, retry in a while!</value>
+  </data>
+  <data name="ChangeGroupInfoCantSaveNickname" xml:space="preserve">
+    <value>Oops! Something wrong while saving new nickname</value>
+  </data>
+  <data name="ChangeGroupInfoCantSaveProfile" xml:space="preserve">
+    <value>Oops! Something wrong while saving new profile</value>
+  </data>
+  <data name="ChangeGroupInfoNickNameAlreadyPresent" xml:space="preserve">
+    <value>Ehi, this name is already used by another group or channel!</value>
+  </data>
+  <data name="ChangeGroupInfoSaveSuccess" xml:space="preserve">
+    <value>Excellent! New info has been successfully saved!</value>
+  </data>
+  <data name="ChangeGroupInfoSuggestions" xml:space="preserve">
+    <value>{0} is taken, try</value>
+  </data>
+  <data name="ChangePictureCantSavePicture" xml:space="preserve">
+    <value>Oops! Something wrong while saving your picture</value>
+  </data>
+  <data name="ChangePictureNoPicture" xml:space="preserve">
+    <value>Mmmhhh, seems that no picture has been selected!</value>
+  </data>
+  <data name="ChangePictureSaveSuccess" xml:space="preserve">
+    <value>Excellent! Picture has been successfully saved!</value>
+  </data>
+  <data name="CreateChannelGenericError" xml:space="preserve">
+    <value>Oops, an error occurred while creating your channel... Please, try again!</value>
+  </data>
+  <data name="CreateChannelInvalidTopic" xml:space="preserve">
+    <value>This topic is too long: max 128 chars!</value>
+  </data>
+  <data name="CreateChannelSuccess" xml:space="preserve">
+    <value>Excellent! New channel has been successfully created!</value>
+  </data>
+  <data name="CreateGroupGenericError" xml:space="preserve">
+    <value>Oops, an error occurred while creating your group... Please, try again!</value>
+  </data>
+  <data name="CreateGroupInvalidName" xml:space="preserve">
+    <value>This name is not valid: 3 to 50 chars without special chars!</value>
+  </data>
+  <data name="CreateGroupInvalidShortDescr" xml:space="preserve">
+    <value>This topic is too long: max 128 chars!</value>
+  </data>
+  <data name="CreateGroupSuccess" xml:space="preserve">
+    <value>Excellent! New group has been successfully created!</value>
+  </data>
+  <data name="DeleteChannelGenericError" xml:space="preserve">
+    <value>Oops, an error occurred while deleting your channel... Please, try again!</value>
+  </data>
+  <data name="DeleteChannelSuccess" xml:space="preserve">
+    <value>OK! The channel has been successfully deleted!</value>
+  </data>
+  <data name="DeleteGroupGenericError" xml:space="preserve">
+    <value>Oops, an error occurred while deleting your group... Please, try again!</value>
+  </data>
+  <data name="DeleteGroupSuccess" xml:space="preserve">
+    <value>OK! The group has been successfully deleted!</value>
+  </data>
+  <data name="EmptyName" xml:space="preserve">
+    <value>Please, give a name to your group!</value>
+  </data>
+  <data name="UserNotAdmin" xml:space="preserve">
+    <value>No, no: you are not an administrator of this group!</value>
+  </data>
+  <data name="UserNotAdminForChannel" xml:space="preserve">
+    <value>No, no: you are not an administrator of this channel!</value>
+  </data>
+  <data name="UserNotAllowedToSeeError" xml:space="preserve">
+    <value>No no: user is not allowed to see this group {0}</value>
+  </data>
+  <data name="UserNotAllowedToSeeErrorForChannel" xml:space="preserve">
+    <value>No no: user is not allowed to see the channel {0}</value>
+  </data>
+  <data name="UserNotLogged" xml:space="preserve">
+    <value>What?? Seems you are not logged in</value>
+  </data>
+</root>

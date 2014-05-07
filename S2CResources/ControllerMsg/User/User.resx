@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackupError" xml:space="preserve">
+    <value>Oops! Something wrong while backupping your snippets</value>
+  </data>
+  <data name="ChangeEmailCantSaveEmail" xml:space="preserve">
+    <value>Oops! Something wrong while saving new email address</value>
+  </data>
+  <data name="ChangeEmailEmptyPsw" xml:space="preserve">
+    <value>No no: password is too short! At least 4 chars without spaces...</value>
+  </data>
+  <data name="ChangeEmailInvalidEmail" xml:space="preserve">
+    <value>Check the email: it seems invalid!</value>
+  </data>
+  <data name="ChangeEmailSaveSuccess" xml:space="preserve">
+    <value>Excellent! New email address has been saved!</value>
+  </data>
+  <data name="ChangeEmailWrongPsw" xml:space="preserve">
+    <value>No no: wrong password</value>
+  </data>
+  <data name="ChangePictureCantSavePicture" xml:space="preserve">
+    <value>Oops! Something wrong while saving your picture</value>
+  </data>
+  <data name="ChangePictureNoPicture" xml:space="preserve">
+    <value>Mmmhhh, seems that no picture has been selected!</value>
+  </data>
+  <data name="ChangePictureSaveSuccess" xml:space="preserve">
+    <value>Excellent! Picture has been successfully saved!</value>
+  </data>
+  <data name="ChangePictureWrongGravatarEmail" xml:space="preserve">
+    <value>Mmmhhh, seems that the email you entered is invalid!</value>
+  </data>
+  <data name="ChangePictureWrongPicture" xml:space="preserve">
+    <value>Mmmhhh, seems that your picture is not suited for us: please, specify a PNG, JPG or BMP file, with a size smaller than 2MB</value>
+  </data>
+  <data name="ChangePswCantSavePsw" xml:space="preserve">
+    <value>Oops! Something wrong while saving new password</value>
+  </data>
+  <data name="ChangePswSaveSuccess" xml:space="preserve">
+    <value>Excellent! Password has been successfully saved!</value>
+  </data>
+  <data name="ChangePswWrongLenght" xml:space="preserve">
+    <value>No no: password is too short! At least 4 chars without spaces...</value>
+  </data>
+  <data name="ChangePswWrongPsw" xml:space="preserve">
+    <value>No no: wrong password</value>
+  </data>
+  <data name="ChangePswWrongRepeat" xml:space="preserve">
+    <value>No no: the passwords don't match</value>
+  </data>
+  <data name="ChangeTwitterNicknameCantSaveUsername" xml:space="preserve">
+    <value>Oops! Something wrong while saving Twitter username</value>
+  </data>
+  <data name="ChangeTwitterNickNameEmpty" xml:space="preserve">
+    <value>Ehi, seems that Twitter username is empty! Don't you want to be cited in all the tweets regarding your snippets?</value>
+  </data>
+  <data name="ChangeTwitterNicknameSaveSuccess" xml:space="preserve">
+    <value>Excellent! Your Twitter username has been successfully saved!</value>
+  </data>
+  <data name="ChangeUserInfoCantSaveProfile" xml:space="preserve">
+    <value>Oops! Something wrong while saving new profile</value>
+  </data>
+  <data name="ChangeUserInfoCantSaveUsername" xml:space="preserve">
+    <value>Oops! Something wrong while saving new username</value>
+  </data>
+  <data name="ChangeUserInfoEmailAlreadyPresent" xml:space="preserve">
+    <value>Ehi, this email is already used by another guy!</value>
+  </data>
+  <data name="ChangeUserInfoInvalidFirstName" xml:space="preserve">
+    <value>Check the first name: it seems invalid!</value>
+  </data>
+  <data name="ChangeUserInfoInvalidLastName" xml:space="preserve">
+    <value>Check the last name: it seems invalid!</value>
+  </data>
+  <data name="ChangeUserInfoInvalidNickname" xml:space="preserve">
+    <value>Check the username: it seems invalid!</value>
+  </data>
+  <data name="ChangeUserInfoNickNameAlreadyPresent" xml:space="preserve">
+    <value>Ehi, this nickname is already used by another guy!</value>
+  </data>
+  <data name="ChangeUserInfoNickNameEmpty" xml:space="preserve">
+    <value>Ehi, seems that nickname is empty! Don't you want to have the coolest username of the neighborhood?</value>
+  </data>
+  <data name="ChangeUserInfoSaveSuccess" xml:space="preserve">
+    <value>Excellent! New profile has been successfully saved!</value>
+  </data>
+  <data name="ChangeUserInfoSuggestions" xml:space="preserve">
+    <value>{0} is taken, try</value>
+  </data>
+  <data name="ChangeUserInfoWrongDefaultGroup" xml:space="preserve">
+    <value>Ehi, you haven't got access to this group!</value>
+  </data>
+  <data name="ImportGithubError" xml:space="preserve">
+    <value>Oops! Something wrong while checking your GitHub account. Please, retry in a while.</value>
+  </data>
+  <data name="ImportGithubSaveSuccess" xml:space="preserve">
+    <value>Excellent! Your GitHub profile has been merged with the Snip2Code one!</value>
+  </data>
+  <data name="ImportSnippetNoSavedMsg" xml:space="preserve">
+    <value>No snippets have been imported. Please check the submitted file.</value>
+  </data>
+  <data name="ImportSnippetOKMsg" xml:space="preserve">
+    <value>1 snippet has been correctly imported!</value>
+  </data>
+  <data name="ImportSnippetsNoFile" xml:space="preserve">
+    <value>Mmmhhh, seems that no file has been selected!</value>
+  </data>
+  <data name="ImportSnippetsOKMsg" xml:space="preserve">
+    <value>{0} snippets have been correctly imported!</value>
+  </data>
+  <data name="ImportStackoverflowError" xml:space="preserve">
+    <value>Oops! Something wrong while checking your Stackoverflow account. Please, retry in a while.</value>
+  </data>
+  <data name="ImportStackoverflowSaveSuccess" xml:space="preserve">
+    <value>Excellent! Your Stackoverflow profile has been merged with the Snip2Code one!</value>
+  </data>
+  <data name="UserNotAllowedToSeeError" xml:space="preserve">
+    <value>No no: user is not allowed to see this user {0}</value>
+  </data>
+  <data name="ChangeUserAlertError" xml:space="preserve">
+    <value>Oops! Something wrong while setting notification settings. Please, retry in a while.</value>
+  </data>
+  <data name="ChangeUserAlertsEmptyPrefs" xml:space="preserve">
+    <value>Ehi, seems that some preferences have not been set. Set them all, please! </value>
+  </data>
+  <data name="ChangeUserAlertSuccess" xml:space="preserve">
+    <value>Excellent! New preferences have been successfully saved!</value>
+  </data>
+</root>

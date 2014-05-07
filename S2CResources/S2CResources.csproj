@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D531D11E-5948-4B4C-8BB2-037BEEB22974}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Snip2Code.Resources</RootNamespace>
+    <AssemblyName>Snip2Code.Resources</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commons\GroupNames\GroupNames.Designer.cs">
+      <DependentUpon>GroupNames.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Commons\ResultLabels\ResultLabels.Designer.cs">
+      <DependentUpon>ResultLabels.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControllerMsg\Access\Access.Designer.cs">
+      <DependentUpon>Access.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControllerMsg\Group\Group.Designer.cs">
+      <DependentUpon>Group.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControllerMsg\Editor\Editor.Designer.cs">
+      <DependentUpon>Editor.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControllerMsg\Explore\Explore.Designer.cs">
+      <DependentUpon>Explore.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControllerMsg\Images\Images.Designer.cs">
+      <DependentUpon>Images.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControllerMsg\Properties\Properties.Designer.cs">
+      <DependentUpon>Properties.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControllerMsg\Search\Search.Designer.cs">
+      <DependentUpon>Search.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControllerMsg\Snippets\Snippets.Designer.cs">
+      <DependentUpon>Snippets.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControllerMsg\User\User.Designer.cs">
+      <DependentUpon>User.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Email\NewComment\NewComment.Designer.cs">
+      <DependentUpon>NewComment.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Email\BadgeNewsletter\BadgeNewsletter.Designer.cs">
+      <DependentUpon>BadgeNewsletter.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Email\NewSnippetsInGroup\NewSnippetsInGroup.Designer.cs">
+      <DependentUpon>NewSnippetsInGroup.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Email\Newsletter\Newsletter.Designer.cs">
+      <DependentUpon>Newsletter.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Email\JoinGroupEmail\JoinGroupEmail.Designer.cs">
+      <DependentUpon>JoinGroupEmail.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Email\InvitationEmail\InvitationEmail.Designer.cs">
+      <DependentUpon>InvitationEmail.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Email\WelcomeAdminEmail\WelcomeAdminEmail.Designer.cs">
+      <DependentUpon>WelcomeAdminEmail.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Email\RetrievePsw\RetrievePswEmail.Designer.cs">
+      <DependentUpon>RetrievePswEmail.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Email\WelcomeEmail\PlaceHolders.cs" />
+    <Compile Include="Email\WelcomeEmail\WelcomeEmail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WelcomeEmail.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Infrastructure\Generic3PartyHelper\Generic3PartyHelper.Designer.cs">
+      <DependentUpon>Generic3PartyHelper.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Infrastructure\GravatarHelper\GravatarHelper.Designer.cs">
+      <DependentUpon>GravatarHelper.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Infrastructure\S2CControllerBase\S2CControllerBase.Designer.cs">
+      <DependentUpon>S2CControllerBase.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="S2CModels\SearchEngine\SearchEngine.Designer.cs">
+      <DependentUpon>SearchEngine.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebModels\SnippetInfo\SnippetInfo.Designer.cs">
+      <DependentUpon>SnippetInfo.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebModels\UserInfo\UserInfo.Designer.cs">
+      <DependentUpon>UserInfo.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\AboutUs\AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\AdminIndex\AdminIndex.Designer.cs">
+      <DependentUpon>AdminIndex.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\AdminLayout\AdminLayout.Designer.cs">
+      <DependentUpon>AdminLayout.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Backup\Backup.Designer.cs">
+      <DependentUpon>Backup.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Channels\Channels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Channels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPages\AdvertiseWithUs\AdvertiseWithUs.Designer.cs">
+      <DependentUpon>AdvertiseWithUs.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\ContactUs\ContactUs.Designer.cs">
+      <DependentUpon>ContactUs.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Comparison\Comparison.Designer.cs">
+      <DependentUpon>Comparison.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\ChannelUnsubscribe\ChannelUnsubscribe.Designer.cs">
+      <DependentUpon>ChannelUnsubscribe.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Alerts\Alerts.Designer.cs">
+      <DependentUpon>Alerts.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Docs\Docs.Designer.cs">
+      <DependentUpon>Docs.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\CreateChannel\CreateChannel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreateChannel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPages\CreateGroup\CreateGroup.Designer.cs">
+      <DependentUpon>CreateGroup.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\ThirdParty\ThirdParty.Designer.cs">
+      <DependentUpon>ThirdParty.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Faq\Faq.Designer.cs">
+      <DependentUpon>Faq.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Privacy\Privacy.Designer.cs">
+      <DependentUpon>Privacy.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\ToS\ToS.Designer.cs">
+      <DependentUpon>ToS.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\CreateUser\CreateUser.Designer.cs">
+      <DependentUpon>CreateUser.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Downloads\Downloads.Designer.cs">
+      <DependentUpon>Downloads.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\EditorIndex\EditorIndex.Designer.cs">
+      <DependentUpon>EditorIndex.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Edit\Edit.Designer.cs">
+      <DependentUpon>Edit.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Email\Email.Designer.cs">
+      <DependentUpon>Email.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\ErrorEdit\ErrorEdit.Designer.cs">
+      <DependentUpon>ErrorEdit.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\ExploreList\ExploreList.Designer.cs">
+      <DependentUpon>ExploreList.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\ExploreView\ExploreView.Designer.cs">
+      <DependentUpon>ExploreView.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Footer\Footer.Designer.cs">
+      <DependentUpon>Footer.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\HomeIndex\HomeIndex.Designer.cs">
+      <DependentUpon>HomeIndex.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Index\Index.Designer.cs">
+      <DependentUpon>Index.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Layout\Layout.Designer.cs">
+      <DependentUpon>Layout.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\ListSnippets\ListSnippets.Designer.cs">
+      <DependentUpon>ListSnippets.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Login\Login.Designer.cs">
+      <DependentUpon>Login.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Password\Password.Designer.cs">
+      <DependentUpon>Password.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Picture\Picture.Designer.cs">
+      <DependentUpon>Picture.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\PluginEditResult\PluginEditResult.Designer.cs">
+      <DependentUpon>PluginEditResult.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\PublicLayout\PublicLayout.Designer.cs">
+      <DependentUpon>PublicLayout.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\RetrievePsw\RetrievePsw.Designer.cs">
+      <DependentUpon>RetrievePsw.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Signup\Signup.Designer.cs">
+      <DependentUpon>Signup.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\Toolbar\Toolbar.Designer.cs">
+      <DependentUpon>Toolbar.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WebPages\UserIndex\UserIndex.Designer.cs">
+      <DependentUpon>UserIndex.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Commons\GroupNames\GroupNames.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>GroupNames.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Commons</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commons\ResultLabels\ResultLabels.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResultLabels.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Commons</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControllerMsg\Access\Access.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Access.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>ControllerMsg</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControllerMsg\Group\Group.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Group.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>ControllerMsg</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControllerMsg\Editor\Editor.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Editor.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>ControllerMsg</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControllerMsg\Explore\Explore.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Explore.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>ControllerMsg</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControllerMsg\Images\Images.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>ControllerMsg</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControllerMsg\Properties\Properties.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Properties.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>ControllerMsg</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControllerMsg\Search\Search.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Search.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>ControllerMsg</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControllerMsg\Snippets\Snippets.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Snippets.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>ControllerMsg</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControllerMsg\User\User.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>User.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>ControllerMsg</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\NewComment\NewComment.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>NewComment.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Email</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\BadgeNewsletter\BadgeNewsletter.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>BadgeNewsletter.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Email</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\NewSnippetsInGroup\NewSnippetsInGroup.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>NewSnippetsInGroup.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Email</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\Newsletter\Newsletter.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Newsletter.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Email</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\JoinGroupEmail\JoinGroupEmail.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>JoinGroupEmail.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Email</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\InvitationEmail\InvitationEmail.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>InvitationEmail.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Email</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\WelcomeAdminEmail\WelcomeAdminEmail.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>WelcomeAdminEmail.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Email</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\RetrievePsw\RetrievePswEmail.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RetrievePswEmail.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Email</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\WelcomeEmail\WelcomeEmail.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>WelcomeEmail.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Email</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infrastructure\Generic3PartyHelper\Generic3PartyHelper.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Generic3PartyHelper.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>InfrastrucMsg</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infrastructure\GravatarHelper\GravatarHelper.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>GravatarHelper.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>InfrastrucMsg</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infrastructure\S2CControllerBase\S2CControllerBase.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>S2CControllerBase.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>InfrastrucMsg</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="S2CModels\SearchEngine\SearchEngine.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SearchEngine.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>S2CModels</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebModels\SnippetInfo\SnippetInfo.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SnippetInfo.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebModels</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebModels\UserInfo\UserInfo.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UserInfo.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebModels</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\AboutUs\AboutUs.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AboutUs.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\AdminIndex\AdminIndex.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AdminIndex.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\AdminLayout\AdminLayout.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AdminLayout.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Backup\Backup.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Backup.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Channels\Channels.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Channels.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\AdvertiseWithUs\AdvertiseWithUs.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AdvertiseWithUs1.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\ContactUs\ContactUs.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ContactUs.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Comparison\Comparison.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Comparison.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\ChannelUnsubscribe\ChannelUnsubscribe.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ChannelUnsubscribe.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Alerts\Alerts.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Alerts.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Docs\Docs.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Docs.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\CreateChannel\CreateChannel.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateChannel.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\CreateGroup\CreateGroup.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateGroup.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\ThirdParty\ThirdParty.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ThirdParty.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Faq\Faq.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Faq.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Privacy\Privacy.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Privacy.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\ToS\ToS.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ToS.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\CreateUser\CreateUser.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateUser.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Downloads\Downloads.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Downloads.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\EditorIndex\EditorIndex.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>EditorIndex.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Edit\Edit.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Edit.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Email\Email.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Email.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\ErrorEdit\ErrorEdit.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ErrorEdit.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\ExploreList\ExploreList.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExploreList.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\ExploreView\ExploreView.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExploreView.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Footer\Footer.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Footer.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\HomeIndex\HomeIndex.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>HomeIndex.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Index\Index.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Layout\Layout.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Layout.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\ListSnippets\ListSnippets.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ListSnippets.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Login\Login.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Login.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Password\Password.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Password.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Picture\Picture.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Picture.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\PluginEditResult\PluginEditResult.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PluginEditResult.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\PublicLayout\PublicLayout.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PublicLayout.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\RetrievePsw\RetrievePsw.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RetrievePsw.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Signup\Signup.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Signup.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\Toolbar\Toolbar.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Toolbar.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPages\UserIndex\UserIndex.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UserIndex.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>WebPages</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Key.snk" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicFieldsA" xml:space="preserve">
+    <value>A snippet is defined at least by a title, the code content and the visibility. </value>
+  </data>
+  <data name="BasicFieldsQ" xml:space="preserve">
+    <value>Which are the very basic fields of a snippet?</value>
+  </data>
+  <data name="ChannelsA" xml:space="preserve">
+    <value>A Channel is a repository of public snippets linked together by a common topic. A user may follow a channel in order to be notified on the latest news about that stuff. Everyone may create and administer a channel, maybe providing some special introduction as a description of the channel and related topic. This is the ideal place to gather the highest visibility for you coolest snippets!</value>
+  </data>
+  <data name="ChannelsQ" xml:space="preserve">
+    <value>What is a Channel?</value>
+  </data>
+  <data name="ContentTitle" xml:space="preserve">
+    <value>Frequently Asked Questions</value>
+  </data>
+  <data name="GroupsA" xml:space="preserve">
+    <value>A Group is a set of users that can share some snippets just only among them. A snippet shared with a group is visible only by the belongers of this group. The users that join a the group can be administrators or simple belongers. The snippets shared in the group can be edited only by the administrators and by the creator of the snippet itself, while simple belongers may only view and comment. In this way, the real aim of the group is to preserve the knowledge of a team, without leaving strangers to put the hands on precious pearls of wisdom!
+</value>
+  </data>
+  <data name="GroupsQ" xml:space="preserve">
+    <value>What is a Group?</value>
+  </data>
+  <data name="PublishA" xml:space="preserve">
+    <value>Are you a software guru? Make the world a better place by posting your coolest snippets! First of all, publish your snippets on one or more channels: from the Snippet View page, press the "PUBLISH" button and select one or more channels where your snippet may be seen by tons of other guys. Then, you may achieve further visibility by posting your cool stuff onto the social networks like Facebook, Twitter and LinkedIn: from the Snippet View Page, press one of the buttons near "Snippet Posting Options" and prepare your new rocking tweet, your best LinkedIn article, or your glorious Facebook post!</value>
+  </data>
+  <data name="PublishQ" xml:space="preserve">
+    <value>How may I make the world aware of my software knowledge?</value>
+  </data>
+  <data name="SearchabilityA" xml:space="preserve">
+    <value>Snip2Code search works with a pattern matching technique with respect to the tags, a full-text search with respect to the description of the snippet, and applies a proprietary algorithm for the properties.
+Given this scenario, the best way to decorate a snippet is to write a good description, just like the comments written on top of classes or public methods. Moreover, Snip2Code automatically detects some properties and tags from the content and the title of the snippet, but no automatic discovery may replace your knowledge of the code: so, add the tags you think can better describe your snippet, and improve its semantic definition with some other properties. 
+In this way your snippet will be very easy to be found, and will reflect exactly what the user is searching for! No more quarter of hours spent in useless searches around tens of forums!!</value>
+  </data>
+  <data name="SearchabilityQ" xml:space="preserve">
+    <value>How may I make my snippet easier to be retrieved?</value>
+  </data>
+  <data name="ShareA" xml:space="preserve">
+    <value>You may share your snippets with a group of friends and/or colleagues from the Snippet View page: here, press the "SHARE" button and select one of your groups. If you don't have any group, you may create your own, and invite your friends to join it! In this way, only you and your group members will be able to see the shared snippets.</value>
+  </data>
+  <data name="ShareQ" xml:space="preserve">
+    <value>How may I share my snippets with my friends and colleagues?</value>
+  </data>
+  <data name="SnippetA" xml:space="preserve">
+    <value>A snippet is a chunk of code, usually self-contained, that solves a particular task. It can vary from a simple line of code (e.g. a batch command, a regex, etc.) to hundreds of lines (e.g. cryptographic algorithms...). It can also be a mix of several languages (e.g. HTML tags + CSS styles + javascript). The only  limit is your fantasy!</value>
+  </data>
+  <data name="SnippetQ" xml:space="preserve">
+    <value>What is a snippet?</value>
+  </data>
+  <data name="TagsVSPropsA" xml:space="preserve">
+    <value>Tags are simple attributes of snippets, used to search them for an exact match (or 'LIKE' behavior with jolly characters). Properties add scope to the features of the snippets, and the capability to search with '&gt;' and '&lt;' operators. In this way, a snippet with a property like "Windows Version = WindowsXP" will match the search "Windows Version &lt; Windows7". You can also create your own properties, to expand the management capabilities of your basket of snippets! </value>
+  </data>
+  <data name="TagsVSPropsQ" xml:space="preserve">
+    <value>What's the difference between tags and properties?</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="VisibilityA" xml:space="preserve">
+    <value>The visibility field determines who can see your snippet. 
+There are 3 classes of visibility: "Only me" makes the snippet private for the creator, and nobody else will have access to it. "Everyone" exposes the snippet to the outside world, so that everybody on the Internet will be able to see it. Otherwise, you will be able to share the snippet with one of your groups; in this case, only the belongers of this group will be able to access it (and only the group administrators will be able to edit it, together with the creator).</value>
+  </data>
+  <data name="VisibilityQ" xml:space="preserve">
+    <value>How may I cope with Visibility field?</value>
+  </data>
+</root>
