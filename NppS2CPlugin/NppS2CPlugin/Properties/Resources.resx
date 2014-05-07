@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="addSnip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>addSnip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="change" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>change.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="channel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>channel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emptyProfilePic 50x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>emptyProfilePic 50x50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loginToolbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>loginToolbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="publish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>publish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="publishSnippet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>publishSnippet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="removeProperty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>removeProperty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saveSnippet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>saveSnippet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>search_btn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="share" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>share.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snip2Code 32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Snip2Code 32x32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snip2Code 40x240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Snip2Code 40x240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snip2Code16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Snip2Code16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spacerAddSnippet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>spacerAddSnippet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="star" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALDAAA
+        CwwBP0AiyAAAAh1JREFUOE9j+P//Pwq+me6td7sofP2dstjHt6uS/t8si/1/LTvg8aUEl/UXQs300NWj
+        cO4UR6y/Wx73/6KH+v9Tumz/T2owgPEpHdb/Zx3k/p+Pdfx/NsxiPbIeMPH9/k2Oe9XJj69F28A14cKn
+        XVX+nww2e3ysLocDbgDIZmyar8c5gDG6+Amga455aIBdwnCvOskU5Gx0RSD88eT+/+9O7P+/RxVT7oib
+        +v9DziqmDLfygnaB/Iyu4IKzAtACCFhnq4Ahf8yY//9BG+ldDHdrUp7AAgzk3IdtBf+fL5zw/8eT+1Dt
+        //9/enz//8PJDWA5mJdOaDH932sn+4QBFFUwU+9WxEO14Abny+LhXtplJQmMd2A8wwwA4YtABbjAnqL4
+        /1PlGP5vU4Go3WEq+p/hekHYE1A8Ixtyf34/VAsCXJjTj6L5hCbj/22G/E8YLsU67AIlEmQDQKGPDu7t
+        WP9/jRJCzSFttv87tTl2MVxK9jABpTBkA2ABeKqvHmwzCLy+ev7/UkWEmu06nP83a7CZgBMSKHmCUxhU
+        8vW6+f9XWMmDnbxeGehsW3mwC+YrQOT3Am3fpsEKSUgg4vyEBg5Q8gSlMJghK4HOPayOsBHEBrkApHmL
+        BuvjaQrMiKQMw6DkCUphoEQCimeYZlCAgfwMcjbMZhhGMQCED9vK6B60lV2/z0b6MSieQVG1w4Dv8Q4d
+        zvU7NFh0UdX/ZwAAPcNzL0pL3bkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="star_bmp" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1yAgAAAAAAAHIBAAAoAAAAEAAAABAAAAABAAgAAAAAAAAAAAARCwAAEQsAAE8AAABPAAAAAAAA////
+        ////AP//z9Xr/wAoyf8AJ8P/ACW8/wAktv8AI6//ACKs/wAiqf8AIaX/ACCf/wAelf8BKcj/AirI/wUs
+        yv8GLcr/BivC/wUotv8FKLT/Biu9/wgruf8JLLj/CSy3/w8zxv8OMLj/DzG2/xU1uP8ZOrr/GzzB/xs8
+        vv8eQM3/HkDI/x09wf8gQ9D/HT69/x89tv8kRcv/J0jR/yA9rv8fOqj/J0bE/yhIxv82U8n/OFbN/zxb
+        1v9AXtf/QF3S/0Fdz/9EYNL/UGvW/1Ju2v9Xctv/WHPc/1Zw1/9ed93/XXbc/1122f9feN3/Y3ve/2J6
+        2/9kfN3/X3bR/192z/9whuH/X3K8/4CT4f+Qoef/f47K/4+f3/+fruv/j5zQ/6+43v+/yfH/v8ju/9/k
+        +P/f4/L//////wICAgICIh8dHBoXAgICAgICAgIrKhkPBAQOEhgTAgICAgIsIQQECgUEBAULFRQCAgIt
+        JgQERykNCCVJDAQVEwICMQQEBEwBRUgBAwsEBBgCMCAEBARKAQEBAUkJBAQSFjcQBAQERgEBAQFIDQcE
+        Dhs6BAQEPwEBAQEBAUINBwQcPQQEOwEBAQEBAQEBQAYEHT4RBC9BREwBAU1DQS8EDyQ0JwQEBAQjAQEo
+        BAQEBBkeAjgEBAQEBEpLBgQEBAQqAgI2LgQEBAQvLwQEBAQhKwICAjwuBAQEBAQEBAQmLAICAgICNjgn
+        EQQEECAxLQICAgICAgICNTk9OjMyAgICAgI=
+</value>
+  </data>
+  <data name="update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AboutWindowTitle" xml:space="preserve">
+    <value>About Snip2Code</value>
+  </data>
+  <data name="AddSnippetButton" xml:space="preserve">
+    <value>Add Snippet</value>
+  </data>
+  <data name="AddSnippetWindowTitle" xml:space="preserve">
+    <value>Add Snippet</value>
+  </data>
+  <data name="CanNotCreateWindow" xml:space="preserve">
+    <value>Window cannot be started. Please check product compatibility.</value>
+  </data>
+  <data name="ChangeBtnText" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="CloseWindowAndLoginBtn" xml:space="preserve">
+    <value>Close Window and Login</value>
+  </data>
+  <data name="CloseWindowButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ConnectionSettingsText" xml:space="preserve">
+    <value>Connection settings</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="DescriptionTextBox" xml:space="preserve">
+    <value>Describe your snippet here!
+i.e. a comment over a method and peculiar information needed to maximize the utility of this snippet in the future and for other people</value>
+  </data>
+  <data name="ErrorCodes_COMMUNICATION_ERROR" xml:space="preserve">
+    <value>Ooops!! There was an error in the communication with the remote server. Please retry!</value>
+  </data>
+  <data name="ErrorCodes_FAIL" xml:space="preserve">
+    <value>Ooops!! Something was wrong in the last operation. Please, retry!</value>
+  </data>
+  <data name="ErrorCodes_INVALID_INPUT_FORMAT" xml:space="preserve">
+    <value>Ooops!! There was an error in the communication with the remote server. Please retry!</value>
+  </data>
+  <data name="ErrorCodes_NOT_ALLOWED" xml:space="preserve">
+    <value>Mmmh, seems you are not allowed to perform this operation. Check your permissions!</value>
+  </data>
+  <data name="ErrorCodes_NOT_LOGGED_IN" xml:space="preserve">
+    <value>Ooops!! Seems that you are not logged in. Please, login and retry!</value>
+  </data>
+  <data name="ErrorCodes_OK" xml:space="preserve">
+    <value>Done!</value>
+  </data>
+  <data name="ErrorCodes_TARGET_GROUP_DELETED" xml:space="preserve">
+    <value>Ooops!! Seems that the target group has been deleted! Please, check with the group administrator and retry!</value>
+  </data>
+  <data name="ErrorCodes_TIMEOUT" xml:space="preserve">
+    <value>Acch!! The remote server is taking too long to answer. Please retry in a while!</value>
+  </data>
+  <data name="ErrorCodes_UNKNOWN" xml:space="preserve">
+    <value>Ooops!! Something was wrong in the last action. Please, retry!</value>
+  </data>
+  <data name="ErrorCodes_WRONG_INPUT" xml:space="preserve">
+    <value>Acch!! Seems that some input value are not correct. Please, check the content and retry!</value>
+  </data>
+  <data name="GenericSnippetWSError" xml:space="preserve">
+    <value>An unknown error has occurred, please try again later.</value>
+  </data>
+  <data name="IncompleteInput" xml:space="preserve">
+    <value>Please fill-up the required fields.</value>
+  </data>
+  <data name="InvalidLoginMsg" xml:space="preserve">
+    <value>Invalid login detected:</value>
+  </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>Invalid Username / Password. Please check your credentials.</value>
+  </data>
+  <data name="NameTextBox" xml:space="preserve">
+    <value>Add a short title to your snippet here!
+i.e. a method signature and where you will use it</value>
+  </data>
+  <data name="NetworkError" xml:space="preserve">
+    <value>There was a problem connecting to the server. Please check your connection.</value>
+  </data>
+  <data name="NoItemsSelected" xml:space="preserve">
+    <value>Please select at least one item</value>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>No snippets have been found.</value>
+  </data>
+  <data name="PublishButtonText" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="PublishErrorUnpublishing" xml:space="preserve">
+    <value>Warning: some items may have not been updated properly. Please retry.</value>
+  </data>
+  <data name="PublishNoChannelFollowed" xml:space="preserve">
+    <value>You need to follow a channel or create your own, in order to publish something</value>
+  </data>
+  <data name="PublishSnippetTooltipFull" xml:space="preserve">
+    <value>Select the Channel(s) where to publish the Snippet, so it will be visible to everyone!</value>
+  </data>
+  <data name="PublishSnippetTooltipSimple" xml:space="preserve">
+    <value>Select the Channel(s) where to publish the Snippet</value>
+  </data>
+  <data name="PublishSnippetWindowTitle" xml:space="preserve">
+    <value>Publish Snippet</value>
+  </data>
+  <data name="SearchMispellingText" xml:space="preserve">
+    <value>Search instead for:</value>
+  </data>
+  <data name="SearchSnippetRecap1" xml:space="preserve">
+    <value>Found {0} snippets</value>
+  </data>
+  <data name="SearchSnippetRecap2" xml:space="preserve">
+    <value>these are the first {0} ones</value>
+  </data>
+  <data name="SearchSnippetWindowTitle" xml:space="preserve">
+    <value>Search Snippet</value>
+  </data>
+  <data name="SearchSuggestion" xml:space="preserve">
+    <value>Enter text to search</value>
+  </data>
+  <data name="ServerUnreacheableOrInvalid" xml:space="preserve">
+    <value>The server inserted is unreacheable now!</value>
+  </data>
+  <data name="SnippetTextBox" xml:space="preserve">
+    <value>Place the Snippet in this frame</value>
+  </data>
+  <data name="SnippetWrongField_CODE" xml:space="preserve">
+    <value>The snippet text is invalid!</value>
+  </data>
+  <data name="SnippetWrongField_default" xml:space="preserve">
+    <value>Snippet is invalid and cannot be saved.</value>
+  </data>
+  <data name="SnippetWrongField_DESCR" xml:space="preserve">
+    <value>Please insert a valid Description!</value>
+  </data>
+  <data name="SnippetWrongField_NAME" xml:space="preserve">
+    <value>Please insert a valid Title!</value>
+  </data>
+  <data name="SnippetWrongField_PROPERTIES" xml:space="preserve">
+    <value>You have entered an invalid property!</value>
+  </data>
+  <data name="TagsTextBox" xml:space="preserve">
+    <value>Insert some tags, split by space (like: c# singleton pattern)</value>
+  </data>
+  <data name="UpdateBtnText" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="UserWindowTitle" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="ViewSnippetWindowTitle" xml:space="preserve">
+    <value>View Snippet</value>
+  </data>
+  <data name="addSnipIco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>addSnip.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="infoIco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>info.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loginIco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>login.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PackageIco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Package.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="publishIco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>publish.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="searchIco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>search.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConfigContent" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;configuration&gt;
+  &lt;configSections&gt;
+    &lt;section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net"/&gt;
+  &lt;/configSections&gt;
+
+  &lt;log4net&gt;
+    &lt;appender name="Console" type="log4net.Appender.DebugAppender"&gt;
+      &lt;layout type="log4net.Layout.PatternLayout"&gt;
+        &lt;!-- Pattern to output the caller's file name and line number --&gt;
+        &lt;conversionPattern value="%5level (%file:%line) - %message%newline" /&gt;
+      &lt;/layout&gt;
+    &lt;/appender&gt;
+
+    &lt;appender name="RollingFile" type="log4net.Appender.RollingFileAppender"&gt;
+      &lt;file value="./log/s2c.log" /&gt; &lt;!-- log can be found at: C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\log --&gt;
+      &lt;appendToFile value="true" /&gt;
+      &lt;maximumFileSize value="1000KB" /&gt;
+      &lt;maxSizeRollBackups value="2" /&gt;
+
+      &lt;layout type="log4net.Layout.PatternLayout"&gt;
+        &lt;conversionPattern value="[%d{ddMMM HH:mm:ss,fff}] %5level %logger (%line) - %message%newline" /&gt;
+      &lt;/layout&gt;
+    &lt;/appender&gt;
+
+    &lt;!-- Print only messages of level WARN or above in the package Com.Foo --&gt;
+    &lt;logger name="Snip2Code.Utils.DBUtils"&gt;
+      &lt;level value="WARN" /&gt;
+    &lt;/logger&gt;
+
+    &lt;root&gt;
+      &lt;level value="DEBUG" /&gt;
+      &lt;appender-ref ref="Console" /&gt;
+      &lt;appender-ref ref="RollingFile" /&gt;
+    &lt;/root&gt;
+  &lt;/log4net&gt;
+
+  &lt;SiteBasePath&gt;http://www.snip2code.com/&lt;/SiteBasePath&gt;
+  &lt;SignupPage&gt;Access/Signup&lt;/SignupPage&gt;
+  &lt;RetrievePwdPage&gt;Access/RetrievePassword&lt;/RetrievePwdPage&gt;
+  &lt;SearchPage&gt;Explore/MySnippets/Page&lt;/SearchPage&gt;
+  &lt;ContactUsPage&gt;Static/ContactUs&lt;/ContactUsPage&gt;
+  &lt;ContactEmail&gt;info@snip2code.com&lt;/ContactEmail&gt;
+  &lt;S2CHeader&gt;Npp&lt;/S2CHeader&gt;
+  &lt;LoginrefreshTimeSec&gt;800&lt;/LoginrefreshTimeSec&gt;
+  &lt;SearchHistoryNumItemToDisplay&gt;6&lt;/SearchHistoryNumItemToDisplay&gt;
+  &lt;SearchHistoryNumItemToStore&gt;6&lt;/SearchHistoryNumItemToStore&gt;
+&lt;/configuration&gt;</value>
+  </data>
+</root>

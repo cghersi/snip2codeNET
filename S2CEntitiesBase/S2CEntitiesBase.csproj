@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2FA2C6E1-13A4-46DF-A925-31767B3617BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Snip2Code.Model</RootNamespace>
+    <AssemblyName>Snip2Code.EntitiesBase</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.1.2.10\lib\2.0\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractImpl\PropertiesCacheRepository.cs" />
+    <Compile Include="Abstract\IGroupRepository.cs" />
+    <Compile Include="Abstract\IPropertiesRepository.cs" />
+    <Compile Include="Abstract\ISnippetRepository.cs" />
+    <Compile Include="Abstract\IUserRepository.cs" />
+    <Compile Include="Comm\GroupUserInfoComm.cs" />
+    <Compile Include="Comm\SnippetBCKCollection.cs" />
+    <Compile Include="Comm\SnippetBCK.cs" />
+    <Compile Include="Entities\BadgeComparer.cs" />
+    <Compile Include="Entities\IBadgeable.cs" />
+    <Compile Include="Entities\RankingAction.cs" />
+    <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\PropValueInfo.cs" />
+    <Compile Include="Entities\Badge.cs" />
+    <Compile Include="Entities\UserBaseInfo.cs" />
+    <Compile Include="Entities\GroupComparer.cs" />
+    <Compile Include="Entities\OneAllToken.cs" />
+    <Compile Include="Entities\GroupUserInfo.cs" />
+    <Compile Include="Entities\SnippetComparer.cs" />
+    <Compile Include="Entities\DefaultProperties.cs" />
+    <Compile Include="Entities\Group.cs" />
+    <Compile Include="Entities\GroupPreferences.cs" />
+    <Compile Include="Entities\IBaseEntity.cs" />
+    <Compile Include="Entities\ItemMetaInfo.cs" />
+    <Compile Include="Entities\Request.cs" />
+    <Compile Include="Entities\Snippet.cs" />
+    <Compile Include="Entities\SnippetComment.cs" />
+    <Compile Include="Entities\SnippetProperty.cs" />
+    <Compile Include="Entities\Tag.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\UserPreferences.cs" />
+    <Compile Include="Comm\GroupComm.cs" />
+    <Compile Include="Comm\SnippetCommentComm.cs" />
+    <Compile Include="Comm\SnippetComm.cs" />
+    <Compile Include="Comm\UserComm.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serialization\S2CRequestBaseEntity.cs" />
+    <Compile Include="Serialization\S2CRequestListBaseEntity.cs" />
+    <Compile Include="Serialization\S2CRequestListObj.cs" />
+    <Compile Include="Serialization\S2CRequestObj.cs" />
+    <Compile Include="Serialization\S2CResBaseEntity.cs" />
+    <Compile Include="Serialization\S2CResListBaseEntity.cs" />
+    <Compile Include="Serialization\S2CResListObj.cs" />
+    <Compile Include="Serialization\S2CResObj.cs" />
+    <Compile Include="Utils\ConfigReader.cs" />
+    <Compile Include="Utils\Encryptor.cs" />
+    <Compile Include="Utils\EntityUtils.cs" />
+    <Compile Include="Serialization\S2CRequest.cs" />
+    <Compile Include="Serialization\S2CRes.cs" />
+    <Compile Include="Serialization\S2CSerializable.cs" />
+    <Compile Include="Serialization\S2CSerializer.cs" />
+    <Compile Include="Utils\IgnoreCaseComparer.cs" />
+    <Compile Include="Utils\ShortenURL.cs" />
+    <Compile Include="Utils\StringTokenizer.cs" />
+    <Compile Include="Utils\Token.cs" />
+    <Compile Include="Utils\Utilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Key.snk" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\fastJSON\fastJSON.csproj">
+      <Project>{207E91B1-C9F8-4913-88E1-3549EF5F3273}</Project>
+      <Name>fastJSON</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

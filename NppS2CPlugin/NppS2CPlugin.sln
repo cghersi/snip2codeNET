@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NppS2CPlugin", "NppS2CPlugin\NppS2CPlugin.csproj", "{EB8FC3A3-93E8-457B-B281-FAFA5119611A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fastJSON", "..\fastJSON\fastJSON.csproj", "{207E91B1-C9F8-4913-88E1-3549EF5F3273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2CEntitiesBase", "..\S2CEntitiesBase\S2CEntitiesBase.csproj", "{2FA2C6E1-13A4-46DF-A925-31767B3617BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2CModelClient", "..\S2CModelClient\S2CModelClient.csproj", "{CB842DBC-144F-416C-83D6-FEC7E11E739A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2CResources", "..\S2CResources\S2CResources.csproj", "{D531D11E-5948-4B4C-8BB2-037BEEB22974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNppForms", "TestNppForms\TestNppForms.csproj", "{C276F2EE-E607-4F37-BB46-25C994089CD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207E91B1-C9F8-4913-88E1-3549EF5F3273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207E91B1-C9F8-4913-88E1-3549EF5F3273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207E91B1-C9F8-4913-88E1-3549EF5F3273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207E91B1-C9F8-4913-88E1-3549EF5F3273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA2C6E1-13A4-46DF-A925-31767B3617BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA2C6E1-13A4-46DF-A925-31767B3617BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA2C6E1-13A4-46DF-A925-31767B3617BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA2C6E1-13A4-46DF-A925-31767B3617BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB842DBC-144F-416C-83D6-FEC7E11E739A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB842DBC-144F-416C-83D6-FEC7E11E739A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB842DBC-144F-416C-83D6-FEC7E11E739A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB842DBC-144F-416C-83D6-FEC7E11E739A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D531D11E-5948-4B4C-8BB2-037BEEB22974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D531D11E-5948-4B4C-8BB2-037BEEB22974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D531D11E-5948-4B4C-8BB2-037BEEB22974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D531D11E-5948-4B4C-8BB2-037BEEB22974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C276F2EE-E607-4F37-BB46-25C994089CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C276F2EE-E607-4F37-BB46-25C994089CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C276F2EE-E607-4F37-BB46-25C994089CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C276F2EE-E607-4F37-BB46-25C994089CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

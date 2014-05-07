@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CB842DBC-144F-416C-83D6-FEC7E11E739A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Snip2Code.Model.Client</RootNamespace>
+    <AssemblyName>S2CModelClient</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.1.2.10\lib\2.0\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\SnippetClient.cs" />
+    <Compile Include="Entities\UserClient.cs" />
+    <Compile Include="Utils\IAbstractForm.cs" />
+    <Compile Include="Utils\IAboutForm.cs" />
+    <Compile Include="Utils\PictureManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\IPluginManager.cs" />
+    <Compile Include="Utils\ILoginForm.cs" />
+    <Compile Include="Utils\ISearchSnippetForm.cs" />
+    <Compile Include="Utils\IPublishSnippetForm.cs" />
+    <Compile Include="Utils\IManageSnippetForm.cs" />
+    <Compile Include="Utils\ClientUtils.cs" />
+    <Compile Include="Utils\AppConfig.cs" />
+    <Compile Include="Utils\LoginPoller.cs" />
+    <Compile Include="Utils\S2cWebClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utils\SearchHistoryEntry.cs" />
+    <Compile Include="Utils\WebConnector.cs" />
+    <Compile Include="WSFramework\BaseWS.cs" />
+    <Compile Include="WSFramework\GroupWS.cs" />
+    <Compile Include="WSFramework\PropertiesWS.cs" />
+    <Compile Include="WSFramework\SnippetsWS.cs" />
+    <Compile Include="WSFramework\UserWS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\fastJSON\fastJSON.csproj">
+      <Project>{207E91B1-C9F8-4913-88E1-3549EF5F3273}</Project>
+      <Name>fastJSON</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OAuth2.Mvc\OAuth2.Mvc.csproj">
+      <Project>{f4e72da8-129e-4872-b6ac-4d9cfcdf91a8}</Project>
+      <Name>OAuth2.Mvc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\S2CEntitiesBase\S2CEntitiesBase.csproj">
+      <Project>{2FA2C6E1-13A4-46DF-A925-31767B3617BE}</Project>
+      <Name>S2CEntitiesBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Key.snk" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

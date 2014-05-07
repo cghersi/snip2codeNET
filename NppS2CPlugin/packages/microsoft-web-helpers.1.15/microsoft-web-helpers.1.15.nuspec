@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>microsoft-web-helpers</id>
+    <version>1.15</version>
+    <title>ASP.NET Web Helpers Library</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains web helpers to easily add functionality to your site such as Captcha validation, Twitter profile and search boxes, Gravatars, Video, Bing search, site analytics or themes.
+
+Report bugs and issues at: http://forums.asp.net/1224.aspx/1?WebMatrix</description>
+    <summary>This package contains web helpers to easily add functionality to your site such as Captcha validation, Twitter profile and search boxes, Gravatars, Video, Bing search, site analytics or themes.</summary>
+    <tags>ASPNETWEBPAGES</tags>
+  </metadata>
+</package>
