@@ -300,7 +300,7 @@ namespace Snip2Code.Utils
                 log.ErrorFormat("Cannot parse from json string:{0} due to {1}", requestTokenData.PrintNull(), e);
                 return false;
             }
-            string reqToken = (resp == null ? null : resp.RequestToken);
+            string reqToken = (resp?.RequestToken);
             if (string.IsNullOrEmpty(reqToken))
             {
                 log.Error("Cannot retrieve request Token");
@@ -620,7 +620,7 @@ namespace Snip2Code.Utils
             int viewStateStartPos = viewStatePos + valueDelimiter.Length;
             int viewStateEndPos = s.IndexOf("\"", viewStateStartPos);
 
-            return HttpUtility.UrlEncodeUnicode(s.Substring(viewStateStartPos, viewStateEndPos - viewStateStartPos));
+            return HttpUtility.UrlEncode(s.Substring(viewStateStartPos, viewStateEndPos - viewStateStartPos));
         }
 
 
