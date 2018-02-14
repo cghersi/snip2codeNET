@@ -1,7 +1,4 @@
-﻿//------------------------------------------------------------------------------
-// (c) 2011-2014 snip2code inc.
-// This software is property of snip2code inc. Use or reproduction without permission is prohibited  
-//------------------------------------------------------------------------------
+﻿// NPP plugin platform for .Net v0.93.96 by Kasper B. Graversen etc.
 using System;
 using System.Runtime.InteropServices;
 
@@ -13,26 +10,20 @@ namespace NppPlugin.DllExport
         public DllExportAttribute()
         {
         }
+
         public DllExportAttribute(string exportName)
             : this(exportName, CallingConvention.StdCall)
         {
         }
+
         public DllExportAttribute(string exportName, CallingConvention callingConvention)
         {
             ExportName = exportName;
             CallingConvention = callingConvention;
         }
-        CallingConvention _callingConvention;
-        public CallingConvention CallingConvention
-        {
-            get { return _callingConvention; }
-            set { _callingConvention = value; }
-        }
-        string _exportName;
-        public string ExportName
-        {
-            get { return _exportName; }
-            set { _exportName = value; }
-        }
+
+        public CallingConvention CallingConvention { get; set; }
+
+        public string ExportName { get; set; }
     }
 }
